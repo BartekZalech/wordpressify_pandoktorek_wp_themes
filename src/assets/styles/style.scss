@@ -1,0 +1,20 @@
+/*
+Theme Name: pandoktorek
+Author: MobilitySoft BZ
+Author URI: http://zalechtech.pl
+Version: 1.0
+*/
+
+@import 'normalize';
+@import '../../../node_modules/aos/src/sass/aos.scss';
+@import 'fonts';
+@import 'variables';
+@import 'mixmins';
+@import 'globals';
+@import 'header';
+@import 'footer';
+@import '404';
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
